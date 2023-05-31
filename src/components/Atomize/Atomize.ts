@@ -71,6 +71,9 @@ export function useStore(
 
   if (enableDevTools) {
     devTools = window.__REDUX_DEVTOOLS_EXTENSION__;
-    devTools && devTools.connect({});
+    if (devTools) {
+      devTools.connect();
+      devTools.send("@INIT", state);
+    }
   }
 }
