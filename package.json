@@ -1,6 +1,6 @@
 {
   "name": "react-atomize-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight state management library that simplifies state handling in your applications. Easily manage and update your app's state with minimal code.",
   "scripts": {
     "rollup": "rollup -c",
