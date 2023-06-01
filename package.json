@@ -1,7 +1,7 @@
 {
   "name": "react-atomize-store",
-  "version": "1.0.1",
-  "description": "A lightweight state management library that simplifies state handling in your applications. Easily manage and update your app's state with minimal code.",
+  "version": "1.0.2",
+  "description": "A lightweight state management library that simplifies state handling in your applications. Easily manage and update your app's state with minimal code. With built-in support for IndexedDB, it provides a seamless way to persist your state, making it perfect for storing login tokens or other sensitive information securely. Enjoy the convenience of automatic storage and retrieval, ensuring your data is always available when needed.",
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest"
@@ -11,7 +11,8 @@
   "keywords": [
     "react",
     "store",
-    "redux"
+    "redux",
+    "indexeddb"
   ],
   "repository": {
     "type": "git",

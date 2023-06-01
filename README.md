@@ -1,6 +1,6 @@
 # react-atomize-store
 
-> A lightweight state management library that simplifies state handling in your applications. Easily manage and update your app's state with minimal code.
+> A lightweight state management library that simplifies state handling in your applications. Easily manage and update your app's state with minimal code. With built-in support for IndexedDB, it provides a seamless way to persist your state, making it perfect for storing login tokens or other sensitive information securely. Enjoy the convenience of automatic storage and retrieval, ensuring your data is always available when needed.
 
 ## Install
 
@@ -25,7 +25,8 @@ const App = () => {
       feeds: [],
       keypair: {},
     },
-    true // Redux DevTools Extension
+    true, // enable Redux devTools
+    ["keypair"] // atoms to store in IndexedDB
   );
 
   return <div>App</div>;
