@@ -25,7 +25,7 @@ const App = () => {
       feeds: [],
       keypair: {},
     },
-    true, // enable Redux devTools
+    true, // Enable Redux DevTools Extension
     ["keypair"] // atoms to store in IndexedDB
   );
 
